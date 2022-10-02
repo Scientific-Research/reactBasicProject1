@@ -28,7 +28,7 @@ function App() {
     <div className="App">
       <h1>Test Site</h1>
       <h2>German Nouns</h2>
-      <p>Thre are {germanNouns.length} German nouns</p>
+      <p>There are {germanNouns.length} German nouns</p>
       <div className="germanNouns">
         {germanNouns.map((germanNoun) => {
           return (
