@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 
 function App() {
   return (
@@ -6,6 +6,6 @@ function App() {
      <h1>Test Site</h1>
      <p>This is a Test, oder?</p>
     </div>
-  )
+  ) 
 }
 export default App
