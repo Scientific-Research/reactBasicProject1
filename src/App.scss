@@ -7,14 +7,24 @@ body {
   h1 {
     color: rgb(159, 252, 9);
   }
-  .germanNouns{
-    .germanNoun{
+  .germanNouns {
+    .germanNoun {
       background-color: #222;
       margin-bottom: 1rem;
       padding: 1rem;
-      .singular{
+      display: flex;
+      gap: 1rem;
+      img {
+        width: 3rem;
+      }
+      .singular {
         color: orange;
       }
     }
   }
+  //oder
+  // .germanNouns .germanNoun img {
+  //   width: 3rem;
+  //   height: 3rem;
+  // }
 }
