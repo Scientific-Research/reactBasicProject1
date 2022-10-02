@@ -34,7 +34,7 @@ function App() {
         {germanNouns.map((germanNoun) => {
           return (
             <div className="germanNoun">
-              <img src="/public/images/cardback.jpg" alt="cardback.jpg" />
+              <img src="images/cardback.jpg" alt="" />
               <div>
                 <div className="singular">
                   {germanNoun.article} {germanNoun.singular}
