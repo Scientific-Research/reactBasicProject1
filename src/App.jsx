@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <h1>Test Site</h1>
       <GermanNouns article="das" />
-      <GermanNouns article="die" />
       <GermanNouns article="der" />
+      <GermanNouns article="die" />
     </div>
   );
-} 
+}
 export default App;
