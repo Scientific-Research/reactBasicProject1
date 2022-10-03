@@ -20,9 +20,11 @@ function shuffle(array) {
   return array;
 }
 
-// const germanNouns = shuffle(_germanNouns).filter(m=>m.article ==="das");
-const germanNouns = shuffle(_germanNouns);
-export const GermanNouns = ({ name = "(empty)" }) => {
+export const GermanNouns = ({ article }) => {
+  const germanNouns = shuffle(_germanNouns).filter(
+    (m) => m.article === article
+  );
+  //   const germanNouns = shuffle(_germanNouns);
   return (
     <>
       <h2>German Nouns</h2>
